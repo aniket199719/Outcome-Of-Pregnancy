@@ -24,9 +24,13 @@
     - To pull the files from github "git pull origin main"
     - To sync all files from local to github "git add ."
 
-8. Under "src" folder create components and pipeline folder
+8. Under "src" folder create following files:
+    - "__inti__.py"
+    - exception.py
+    - logger.py
+    - util.py
 
-9. Inside components folder create following files:
+9. Inside src create components folder with following files:
     - "__init__.py"
     - data_ingestion.py
     - data_transformation.py
@@ -35,7 +39,7 @@
     - model_evaluation.py
     - model_deployment.py
 
-10. Inside pipeline folder create following files:
+10. Inside src create pipeline folder with following files:
     - "__init__.py"
     - predict_pipeline.py
     - train_pipeline.py
